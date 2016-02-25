@@ -1,0 +1,41 @@
+{
+  "name": "rest-node",
+  "version": "0.0.1",
+  "description": "rest client",
+  "main": "lib/restclient.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "test:watch": "./node_modules/.bin/mocha --watch",
+    "coverage": "./node_modules/.bin/istanbul --harmony_proxies cover _mocha -- --recursive && ./node_modules/.bin/istanbul check-coverage",
+    "lint": "./node_modules/.bin/eslint . --ext .js --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/viqueen/rest-node.git"
+  },
+  "keywords": [
+    "rest",
+    "js",
+    "node"
+  ],
+  "author": "Hasnae Rehioui <hasnaer.labset@gmail.com> (http://viqueen.github.io)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/viqueen/rest-node/issues"
+  },
+  "homepage": "https://github.com/viqueen/rest-node#readme",
+  "devDependencies": {
+    "eslint": "^2.2.0",
+    "istanbul": "^0.4.2",
+    "koa": "^1.1.2",
+    "koa-body": "^1.4.0",
+    "koa-route": "^2.4.2",
+    "koa-router": "^5.4.0",
+    "mocha-co": "^1.17.1-co.1"
+  },
+  "dependencies": {
+    "q": "^1.4.1",
+    "qs": "^6.1.0",
+    "request": "^2.69.0"
+  }
+}
