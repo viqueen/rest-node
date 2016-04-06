@@ -1,4 +1,4 @@
-# rest-node (v-0.0.1)
+# rest-node (v-0.0.2)
 
 Nodejs rest client wrapping request with promises
 
